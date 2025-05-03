@@ -59,6 +59,56 @@ User jane_admin as your admin account from now on
 Create a new OU named “_CLIENTS” and drag Client-1 into there
 </p>
 
+<h1>Part 2</h1>
+</b>
+
+<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+<p>
+  1. Log into Client-1 as mydomain.com\jane_admin
+</p>
+
+<p>
+  2. Open system properties
+</p>
+
+<p>
+  3. Click “Remote Desktop”
+</p>
+
+<p>
+  4. Allow “domain users” access to remote desktop
+</p>
+
+<p>
+  5. You can now log into Client-1 as a normal, non-administrative user now.
+Normally you’d want to do this with Group Policy that allows you to change MANY systems at once
+</p>
+
+<h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
+
+<p>
+  1.
+</p>
+ 
+<p>
+  2.
+</p>
+
+<p>
+  3.
+</p>
+
+<p>
+  4.
+</p>
+
+<p>
+  5.
+</p>
+
+<p>
+  6.
+</p>
 
 
 
