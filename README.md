@@ -48,3 +48,21 @@
   5. Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
 User jane_admin as your admin account from now on
 </p>
+
+<h2>Join Client-1 to your domain (mydomain.com)</h2>
+<p>
+  1. Login to Client-1 as the original local admin (labuser) and join it to the domain (computer will restart)
+</p>
+
+<p>
+  2. Login to the Domain Controller and verify Client-1 shows up in ADUC
+Create a new OU named “_CLIENTS” and drag Client-1 into there
+</p>
+
+
+
+
+
+
+
+
