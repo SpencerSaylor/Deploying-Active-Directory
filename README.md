@@ -87,27 +87,27 @@ Normally you’d want to do this with Group Policy that allows you to change MAN
 <h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
 
 <p>
-  1.
+  1. Login to DC-1 as jane_admin
 </p>
  
 <p>
-  2.
+  2. Open PowerShell_ise as an administrator
 </p>
 
 <p>
-  3.
+  3. Create a new File and paste the contents of the script into it
 </p>
 
 <p>
-  4.
+  4. Run the script and observe the accounts being created
 </p>
 
 <p>
-  5.
+  5. When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPLOYEES)
 </p>
 
 <p>
-  6.
+  6. Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 </p>
 
 
