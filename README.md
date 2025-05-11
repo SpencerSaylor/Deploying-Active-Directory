@@ -80,6 +80,12 @@ User jane_admin as your admin account from now on
 <p>
   1. Login to Client-1 as the original local admin (labuser) and join it to the domain (computer will restart)
 </p>
+<ol>
+  <li>Right click the windows logo and select system</li>
+  <li>Select Rename this PC advanced and then click change </li>
+  <li>Under member of, select Domain and type the domain you;d wish for the user to join.</li>
+  <li>A window asking for the username and password of a verified admin to proceed with joining the domain</li>
+</ol>
 
 <p>
   2. Login to the Domain Controller and verify Client-1 shows up in ADUC
