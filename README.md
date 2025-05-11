@@ -17,11 +17,29 @@
 <h2>Install Active Directory</h2>
 <p>
   1. Login to DC-1 and install Active Directory Domain Services
+  <ol>
+    <li>Go to Server Manager</li>
+        <img src="https://i.imgur.com/DteXJIp.png"/>
+    <li>Hover over "Manage"</li>
+     <img src="https://i.imgur.com/g2NS0fl.png"/>
+    <li>select "Add roles and features</li>
+    <li>Select Role-based installation in and select next</li>
+    <img src="https://i.imgur.com/iVBue8j.png"/>
+    <li>Use server from the server pool. In this case, it'll be our windows server VM I created and click next.</li>
+    <img src="https://i.imgur.com/oam0q8h.png"/>
+    <li>In select server roles, select Active Directory Services</li>
+    <img src="https://i.imgur.com/yhDISVQ.png"/>
+    <li>Select add features then click next</li>
+    <img src="https://i.imgur.com/DihNMHI.png"/>
+    <li>When you get to Confirmation, select "restart the destination server automatically if required.</li>
+    <li>Then selcet Install</li>
+  </ol>
 </p>
 
 <p>
   2. Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
 </p>
+<img src="https://i.imgur.com/7mrHiNB.png"/>
 
 <p>
   3. Restart and then log back into DC-1 as user: mydomain.com\labuser
@@ -43,6 +61,15 @@
 <p>
   4. Add jane_admin to the “Domain Admins” Security Group
 </p>
+<ol>
+  <li>go to _ADMINS folder in ADUC</li>
+  <li>Right click Jane Doe and select properties</li>
+  <li>Select member of</li>
+  <li>Click add</li>
+  <li>Type domain admins and click check names</li>
+  <img src="https://i.imgur.com/gNqChPl.png"/>
+  <li>click "OK"</li>
+</ol>
 
 <p>
   5. Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
